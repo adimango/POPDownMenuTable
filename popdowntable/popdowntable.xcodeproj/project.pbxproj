@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CA6E0D017E5EA2D0041CFDE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA6E0CF17E5EA2D0041CFDE /* Main_iPhone.storyboard */; };
+		2CA6E0D317E5EF380041CFDE /* POPDCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA6E0D217E5EF380041CFDE /* POPDCell.m */; };
+		2CA6E0D417E5EF380041CFDE /* POPDCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA6E0D217E5EF380041CFDE /* POPDCell.m */; };
+		2CA6E0D617E5EF7E0041CFDE /* POPDCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA6E0D517E5EF7E0041CFDE /* POPDCell.xib */; };
+		2CA6E0D717E5EF7E0041CFDE /* POPDCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA6E0D517E5EF7E0041CFDE /* POPDCell.xib */; };
+		2CA6E0DA17E61FE70041CFDE /* POPDSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA6E0D917E61FE70041CFDE /* POPDSampleViewController.m */; };
+		2CA6E0DB17E61FE70041CFDE /* POPDSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA6E0D917E61FE70041CFDE /* POPDSampleViewController.m */; };
+		2CFAD52717E5D41F00980C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFAD52617E5D41F00980C70 /* Foundation.framework */; };
+		2CFAD52917E5D41F00980C70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFAD52817E5D41F00980C70 /* CoreGraphics.framework */; };
+		2CFAD52B17E5D41F00980C70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFAD52A17E5D41F00980C70 /* UIKit.framework */; };
+		2CFAD53117E5D41F00980C70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAD52F17E5D41F00980C70 /* InfoPlist.strings */; };
+		2CFAD53317E5D41F00980C70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAD53217E5D41F00980C70 /* main.m */; };
+		2CFAD53717E5D41F00980C70 /* POPDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAD53617E5D41F00980C70 /* POPDAppDelegate.m */; };
+		2CFAD54217E5D42000980C70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAD54117E5D42000980C70 /* Images.xcassets */; };
+		2CFAD54917E5D42000980C70 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFAD54817E5D42000980C70 /* XCTest.framework */; };
+		2CFAD54A17E5D42000980C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFAD52617E5D41F00980C70 /* Foundation.framework */; };
+		2CFAD54B17E5D42000980C70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFAD52A17E5D41F00980C70 /* UIKit.framework */; };
+		2CFAD55317E5D42000980C70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAD55117E5D42000980C70 /* InfoPlist.strings */; };
+		2CFAD55517E5D42000980C70 /* popdowntableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAD55417E5D42000980C70 /* popdowntableTests.m */; };
+		2CFAD56017E5D63900980C70 /* POPDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAD55F17E5D63900980C70 /* POPDViewController.m */; };
+		2CFAD56117E5D63900980C70 /* POPDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAD55F17E5D63900980C70 /* POPDViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CFAD54C17E5D42000980C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CFAD51B17E5D41F00980C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CFAD52217E5D41F00980C70;
+			remoteInfo = popdowntable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CA6E0CF17E5EA2D0041CFDE /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2CA6E0D117E5EF380041CFDE /* POPDCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POPDCell.h; path = ../POPDCell.h; sourceTree = "<group>"; };
+		2CA6E0D217E5EF380041CFDE /* POPDCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POPDCell.m; path = ../POPDCell.m; sourceTree = "<group>"; };
+		2CA6E0D517E5EF7E0041CFDE /* POPDCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = POPDCell.xib; path = ../POPDCell.xib; sourceTree = "<group>"; };
+		2CA6E0D817E61FE60041CFDE /* POPDSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDSampleViewController.h; sourceTree = "<group>"; };
+		2CA6E0D917E61FE70041CFDE /* POPDSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPDSampleViewController.m; sourceTree = "<group>"; };
+		2CFAD52317E5D41F00980C70 /* popdowntable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popdowntable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFAD52617E5D41F00980C70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CFAD52817E5D41F00980C70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2CFAD52A17E5D41F00980C70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CFAD52E17E5D41F00980C70 /* popdowntable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "popdowntable-Info.plist"; sourceTree = "<group>"; };
+		2CFAD53017E5D41F00980C70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CFAD53217E5D41F00980C70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CFAD53417E5D41F00980C70 /* popdowntable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "popdowntable-Prefix.pch"; sourceTree = "<group>"; };
+		2CFAD53517E5D41F00980C70 /* POPDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPDAppDelegate.h; sourceTree = "<group>"; };
+		2CFAD53617E5D41F00980C70 /* POPDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POPDAppDelegate.m; sourceTree = "<group>"; };
+		2CFAD54117E5D42000980C70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CFAD54717E5D42000980C70 /* popdowntableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popdowntableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFAD54817E5D42000980C70 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2CFAD55017E5D42000980C70 /* popdowntableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "popdowntableTests-Info.plist"; sourceTree = "<group>"; };
+		2CFAD55217E5D42000980C70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CFAD55417E5D42000980C70 /* popdowntableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popdowntableTests.m; sourceTree = "<group>"; };
+		2CFAD55E17E5D63900980C70 /* POPDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDViewController.h; sourceTree = "<group>"; };
+		2CFAD55F17E5D63900980C70 /* POPDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPDViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CFAD52017E5D41F00980C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFAD52917E5D41F00980C70 /* CoreGraphics.framework in Frameworks */,
+				2CFAD52B17E5D41F00980C70 /* UIKit.framework in Frameworks */,
+				2CFAD52717E5D41F00980C70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFAD54417E5D42000980C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFAD54917E5D42000980C70 /* XCTest.framework in Frameworks */,
+				2CFAD54B17E5D42000980C70 /* UIKit.framework in Frameworks */,
+				2CFAD54A17E5D42000980C70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CFAD51A17E5D41F00980C70 = {
+			isa = PBXGroup;
+			children = (
+				2CA6E0CF17E5EA2D0041CFDE /* Main_iPhone.storyboard */,
+				2CFAD52C17E5D41F00980C70 /* popdowntable */,
+				2CFAD54E17E5D42000980C70 /* popdowntableTests */,
+				2CFAD52517E5D41F00980C70 /* Frameworks */,
+				2CFAD52417E5D41F00980C70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CFAD52417E5D41F00980C70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAD52317E5D41F00980C70 /* popdowntable.app */,
+				2CFAD54717E5D42000980C70 /* popdowntableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CFAD52517E5D41F00980C70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAD52617E5D41F00980C70 /* Foundation.framework */,
+				2CFAD52817E5D41F00980C70 /* CoreGraphics.framework */,
+				2CFAD52A17E5D41F00980C70 /* UIKit.framework */,
+				2CFAD54817E5D42000980C70 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CFAD52C17E5D41F00980C70 /* popdowntable */ = {
+			isa = PBXGroup;
+			children = (
+				2CA6E0D517E5EF7E0041CFDE /* POPDCell.xib */,
+				2CA6E0D117E5EF380041CFDE /* POPDCell.h */,
+				2CA6E0D217E5EF380041CFDE /* POPDCell.m */,
+				2CFAD53517E5D41F00980C70 /* POPDAppDelegate.h */,
+				2CFAD53617E5D41F00980C70 /* POPDAppDelegate.m */,
+				2CFAD54117E5D42000980C70 /* Images.xcassets */,
+				2CFAD52D17E5D41F00980C70 /* Supporting Files */,
+				2CFAD55E17E5D63900980C70 /* POPDViewController.h */,
+				2CFAD55F17E5D63900980C70 /* POPDViewController.m */,
+				2CA6E0D817E61FE60041CFDE /* POPDSampleViewController.h */,
+				2CA6E0D917E61FE70041CFDE /* POPDSampleViewController.m */,
+			);
+			path = popdowntable;
+			sourceTree = "<group>";
+		};
+		2CFAD52D17E5D41F00980C70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAD52E17E5D41F00980C70 /* popdowntable-Info.plist */,
+				2CFAD52F17E5D41F00980C70 /* InfoPlist.strings */,
+				2CFAD53217E5D41F00980C70 /* main.m */,
+				2CFAD53417E5D41F00980C70 /* popdowntable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CFAD54E17E5D42000980C70 /* popdowntableTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAD55417E5D42000980C70 /* popdowntableTests.m */,
+				2CFAD54F17E5D42000980C70 /* Supporting Files */,
+			);
+			path = popdowntableTests;
+			sourceTree = "<group>";
+		};
+		2CFAD54F17E5D42000980C70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAD55017E5D42000980C70 /* popdowntableTests-Info.plist */,
+				2CFAD55117E5D42000980C70 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CFAD52217E5D41F00980C70 /* popdowntable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFAD55817E5D42000980C70 /* Build configuration list for PBXNativeTarget "popdowntable" */;
+			buildPhases = (
+				2CFAD51F17E5D41F00980C70 /* Sources */,
+				2CFAD52017E5D41F00980C70 /* Frameworks */,
+				2CFAD52117E5D41F00980C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = popdowntable;
+			productName = popdowntable;
+			productReference = 2CFAD52317E5D41F00980C70 /* popdowntable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CFAD54617E5D42000980C70 /* popdowntableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFAD55B17E5D42000980C70 /* Build configuration list for PBXNativeTarget "popdowntableTests" */;
+			buildPhases = (
+				2CFAD54317E5D42000980C70 /* Sources */,
+				2CFAD54417E5D42000980C70 /* Frameworks */,
+				2CFAD54517E5D42000980C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CFAD54D17E5D42000980C70 /* PBXTargetDependency */,
+			);
+			name = popdowntableTests;
+			productName = popdowntableTests;
+			productReference = 2CFAD54717E5D42000980C70 /* popdowntableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CFAD51B17E5D41F00980C70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = POPD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alex Di Mango";
+				TargetAttributes = {
+					2CFAD54617E5D42000980C70 = {
+						TestTargetID = 2CFAD52217E5D41F00980C70;
+					};
+				};
+			};
+			buildConfigurationList = 2CFAD51E17E5D41F00980C70 /* Build configuration list for PBXProject "popdowntable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CFAD51A17E5D41F00980C70;
+			productRefGroup = 2CFAD52417E5D41F00980C70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CFAD52217E5D41F00980C70 /* popdowntable */,
+				2CFAD54617E5D42000980C70 /* popdowntableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CFAD52117E5D41F00980C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFAD54217E5D42000980C70 /* Images.xcassets in Resources */,
+				2CFAD53117E5D41F00980C70 /* InfoPlist.strings in Resources */,
+				2CA6E0D017E5EA2D0041CFDE /* Main_iPhone.storyboard in Resources */,
+				2CA6E0D617E5EF7E0041CFDE /* POPDCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFAD54517E5D42000980C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFAD55317E5D42000980C70 /* InfoPlist.strings in Resources */,
+				2CA6E0D717E5EF7E0041CFDE /* POPDCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CFAD51F17E5D41F00980C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFAD56017E5D63900980C70 /* POPDViewController.m in Sources */,
+				2CFAD53317E5D41F00980C70 /* main.m in Sources */,
+				2CFAD53717E5D41F00980C70 /* POPDAppDelegate.m in Sources */,
+				2CA6E0D317E5EF380041CFDE /* POPDCell.m in Sources */,
+				2CA6E0DA17E61FE70041CFDE /* POPDSampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFAD54317E5D42000980C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFAD55517E5D42000980C70 /* popdowntableTests.m in Sources */,
+				2CFAD56117E5D63900980C70 /* POPDViewController.m in Sources */,
+				2CA6E0D417E5EF380041CFDE /* POPDCell.m in Sources */,
+				2CA6E0DB17E61FE70041CFDE /* POPDSampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CFAD54D17E5D42000980C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CFAD52217E5D41F00980C70 /* popdowntable */;
+			targetProxy = 2CFAD54C17E5D42000980C70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CFAD52F17E5D41F00980C70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CFAD53017E5D41F00980C70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2CFAD55117E5D42000980C70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CFAD55217E5D42000980C70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CFAD55617E5D42000980C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CFAD55717E5D42000980C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CFAD55917E5D42000980C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "popdowntable/popdowntable-Prefix.pch";
+				INFOPLIST_FILE = "popdowntable/popdowntable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CFAD55A17E5D42000980C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "popdowntable/popdowntable-Prefix.pch";
+				INFOPLIST_FILE = "popdowntable/popdowntable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2CFAD55C17E5D42000980C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/popdowntable.app/popdowntable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "popdowntable/popdowntable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "popdowntableTests/popdowntableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2CFAD55D17E5D42000980C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/popdowntable.app/popdowntable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "popdowntable/popdowntable-Prefix.pch";
+				INFOPLIST_FILE = "popdowntableTests/popdowntableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CFAD51E17E5D41F00980C70 /* Build configuration list for PBXProject "popdowntable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFAD55617E5D42000980C70 /* Debug */,
+				2CFAD55717E5D42000980C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CFAD55817E5D42000980C70 /* Build configuration list for PBXNativeTarget "popdowntable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFAD55917E5D42000980C70 /* Debug */,
+				2CFAD55A17E5D42000980C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CFAD55B17E5D42000980C70 /* Build configuration list for PBXNativeTarget "popdowntableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFAD55C17E5D42000980C70 /* Debug */,
+				2CFAD55D17E5D42000980C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CFAD51B17E5D41F00980C70 /* Project object */;
+}
