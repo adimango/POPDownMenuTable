@@ -1,5 +1,6 @@
-# POPDownMenuTable ![Build Status](http://www.whardoo.com/images/popmenu.png)
+# POPDownMenuTable 
 
+[![](http://www.whardoo.com/images/popmenu-thumb.png)](http://www.whardoo.com/images/popmenu.png)
 [![](http://www.whardoo.com/images/popmenu-thumb.png)](http://www.whardoo.com/images/popmenu.png)
 
 This project was inspired by the popdown-menu functionality seen in the Youtube iOS app. POPDownMenuTable is a UITableViewController subclass makes it easy to create a tableview with expandable rows. for implementing popdown-menu functionality. It integrates with storyboard-based apps as well as traditional setups.
