@@ -17,5 +17,3 @@ http://about.me/alex.dimango
 ## License
 
 MIT License. As stated under the LICENSE file.
-
-
