@@ -1,6 +1,6 @@
 # POPDownMenuTable 
 
-[![](http://gdurl.com/LZ-o)](http://gdurl.com/LZ-o)
+[![](http://gdurl.com/r9cj](http://gdurl.com/LZ-o)
 
 This project was inspired by the popdown-menu functionality seen in the Youtube iOS app. POPDownMenuTable is a UITableViewController subclass for implementing popdown-menu functionality. It integrates with storyboard-based apps as well as traditional setups.
 
