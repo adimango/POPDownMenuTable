@@ -19,11 +19,8 @@
     return self;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated
+-(void)prepareForReuse
 {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+    self.backgroundColor = [UIColor clearColor];
 }
-
 @end

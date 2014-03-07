@@ -15,4 +15,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *sepShadow;
 @property (strong, nonatomic) IBOutlet UILabel *shadow;
 
+
+
+
+
 @end

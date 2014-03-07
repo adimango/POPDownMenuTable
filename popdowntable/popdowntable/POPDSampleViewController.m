@@ -45,6 +45,9 @@ static NSString *ksubSection = @"menuSubSection";
     POPDViewController *popMenu = [[POPDViewController alloc]initWithMenuSections:menu];
     popMenu.delegate = self;
     popMenu.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+    //ios7 status bar
+     popMenu.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
+    
     [self addChildViewController:popMenu];
     [self.view addSubview:popMenu.view];
         

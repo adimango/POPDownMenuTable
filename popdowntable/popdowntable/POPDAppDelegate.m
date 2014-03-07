@@ -13,6 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[UITableViewCell appearance] setBackgroundColor:[UIColor clearColor]];
     return YES;
     
 }
